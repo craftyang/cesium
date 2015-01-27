@@ -104,12 +104,12 @@ define([
      * @param {EllipseGraphics} [options.ellipse] A ellipse to associate with this entity.
      * @param {EllipsoidGraphics} [options.ellipsoid] A ellipsoid to associate with this entity.
      * @param {LabelGraphics} [options.label] A options.label to associate with this entity.
-     * @param {LabelGraphics} [options.model] A model to associate with this entity.
+     * @param {ModelGraphics} [options.model] A model to associate with this entity.
      * @param {PathGraphics} [options.path] A path to associate with this entity.
      * @param {PointGraphics} [options.point] A point to associate with this entity.
      * @param {PolygonGraphics} [options.polygon] A polygon to associate with this entity.
      * @param {PolylineGraphics} [options.polyline] A polyline to associate with this entity.
-     * @param {PolylineGraphics} [options.polylineVolume] A polylineVolume to associate with this entity.
+     * @param {PolylineVolumeGraphics} [options.polylineVolume] A polylineVolume to associate with this entity.
      * @param {RectangleGraphics} [options.rectangle] A rectangle to associate with this entity.
      * @param {WallGraphics} [options.wall] A wall to associate with this entity.
      *
@@ -299,7 +299,7 @@ define([
         /**
          * Gets or sets the model.
          * @memberof Entity.prototype
-         * @type {LabelGraphics}
+         * @type {ModelGraphics}
          */
         model : createPropertyTypeDescriptor('model', ModelGraphics),
         /**
@@ -335,7 +335,7 @@ define([
         /**
          * Gets or sets the polyline volume.
          * @memberof Entity.prototype
-         * @type {PolylineGraphics}
+         * @type {PolylineVolumeGraphics}
          */
         polylineVolume : createPropertyTypeDescriptor('polylineVolume', PolylineVolumeGraphics),
         /**
